@@ -4,24 +4,71 @@ body {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: .5em;
-    top: 15%;
+    overflow: hidden;
 	background: linear-gradient(to right, red , yellow); /* Standard syntax */
 }
 
 h1 {
-    font: 600 3.5em 'Raleway', sans-serif;
+    font: 3.5em 'Raleway', sans-serif;
     color: rgba(0,0,0,.5);
     text-align: center;
     text-transform: uppercase;
     letter-spacing: .5em;
-    width: 100%;
+    margin-top: 25vh;
+    margin-bottom: 10vh;
 }
 
 h3 {
-	font: 900 1em 'Raleway', sans-serif;
+	font: 1em 'Raleway', sans-serif;
     color: rgba(0,0,0,.5);
     text-align: center;
     text-transform: none;
+    margin-top: 7vh;
     letter-spacing: 0.01em;
-
+}
+@media(max-width:750px){
+    h1{
+        font: 2.5em 'Raleway', sans-serif;
+        margin-top: 23vh;    
+        letter-spacing: .5em;
+    }
+    h2{
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+    h3{
+        margin-bottom: 5vh;
+        margin-top: 5vh;
+    }
+}
+@media(max-width:480px){
+    h1{
+        font: 2.2em 'Raleway', sans-serif;
+        margin-top: 23vh;    
+        letter-spacing: .3em;
+    }
+    h2{
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+    h3{
+        margin-bottom: 5vh;
+        margin-top: 5vh;
+    }
+}
+@media(max-width:375px){
+    h1{
+        font: 1.7em 'Raleway', sans-serif;
+        margin-top: 23vh;    
+        letter-spacing: .4em;
+    }
+    h2{
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        font: 1.5em;
+    }
+    h3{
+        margin-bottom: 5vh;
+        margin-top: 5vh;
+    }
 }
