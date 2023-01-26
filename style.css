@@ -58,17 +58,18 @@ h3 {
 }
 @media(max-width:375px){
     h1{
-        font: 1.7em 'Raleway', sans-serif;
+        font: 2.3em 'Raleway', sans-serif;
         margin-top: 23vh;    
         letter-spacing: .4em;
     }
     h2{
         margin-top: 5vh;
         margin-bottom: 5vh;
-        font: 1.5em;
+        font: 2em;
     }
     h3{
         margin-bottom: 5vh;
         margin-top: 5vh;
+	font: 1.5em 'Raleway', sans-serif;
     }
 }
