@@ -72,4 +72,7 @@ h3 {
         margin-top: 5vh;
 	font: 1.5em 'Raleway', sans-serif;
     }
+	button{
+	font-size: 10px;
+	}
 }
